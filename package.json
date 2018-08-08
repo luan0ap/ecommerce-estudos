@@ -1,0 +1,18 @@
+{
+  "name": "ecommercefake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon config/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wesley Santos <wessleysanttos@live.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.7"
+  }
+}
